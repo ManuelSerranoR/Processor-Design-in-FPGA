@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.all;
+
+entity Adder is
+    Port ( i_adder_32bit_0 : in  STD_LOGIC_VECTOR (31 downto 0);
+           i_adder_1bit_1 : in  STD_LOGIC;
+           o_adder_32bit_0 : out  STD_LOGIC_VECTOR (31 downto 0));
+end Adder;
+
+architecture Behavioral of Adder is
+
+begin
+
+	o_adder_32bit_0 <= i_adder_32bit_0 + i_adder_1bit_1;
+
+end Behavioral;
