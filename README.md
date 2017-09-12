@@ -1,5 +1,6 @@
 # Processor-Design-in-FPGA
 
-For the course Advanced Hardware Design, my team and I designed a processor within an FPGA using VHDL. 
+In this project, a single cycle 32-bit processor has been designed and implemented in an Nexys 4 Artix-7 FPGA using Xilinx ISE. In addition, RC5 Key Generation, Encryption and Decryption have been performed within the processor.
 
-Implementation of RC5 encryption and decryption program within the processor with superior performance.
+The processor has been designed by means of the implementation and interconnection of multiple components with specific tasks. This allowed us to more easily share our work amongst the team, work together, optimize performance and facilitate debugging.
+This way, we individually created specific components, tested them, and finally connected them together to create the complete processor. All of this components and their descriptions will be shown in the next section.
